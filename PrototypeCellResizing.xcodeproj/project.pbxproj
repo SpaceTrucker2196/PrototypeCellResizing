@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		EE9C6D811AB25609006E2412 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9C6D801AB25609006E2412 /* main.m */; };
 		EE9C6D841AB25609006E2412 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9C6D831AB25609006E2412 /* AppDelegate.m */; };
-		EE9C6D871AB25609006E2412 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9C6D861AB25609006E2412 /* ViewController.m */; };
 		EE9C6D8A1AB25609006E2412 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9C6D881AB25609006E2412 /* Main.storyboard */; };
 		EE9C6D8C1AB25609006E2412 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9C6D8B1AB25609006E2412 /* Images.xcassets */; };
 		EE9C6D8F1AB25609006E2412 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE9C6D8D1AB25609006E2412 /* LaunchScreen.xib */; };
 		EE9C6D9B1AB25609006E2412 /* PrototypeCellResizingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9C6D9A1AB25609006E2412 /* PrototypeCellResizingTests.m */; };
+		EE9C6DA61AB25831006E2412 /* QuoteTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9C6DA51AB25831006E2412 /* QuoteTableTableViewController.m */; };
+		EE9C6DA91AB25ACA006E2412 /* QuoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9C6DA81AB25ACA006E2412 /* QuoteTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		EE9C6D801AB25609006E2412 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE9C6D821AB25609006E2412 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE9C6D831AB25609006E2412 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE9C6D851AB25609006E2412 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE9C6D861AB25609006E2412 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE9C6D891AB25609006E2412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE9C6D8B1AB25609006E2412 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EE9C6D8E1AB25609006E2412 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EE9C6D941AB25609006E2412 /* PrototypeCellResizingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrototypeCellResizingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9C6D991AB25609006E2412 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE9C6D9A1AB25609006E2412 /* PrototypeCellResizingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeCellResizingTests.m; sourceTree = "<group>"; };
+		EE9C6DA41AB25831006E2412 /* QuoteTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuoteTableTableViewController.h; sourceTree = "<group>"; };
+		EE9C6DA51AB25831006E2412 /* QuoteTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuoteTableTableViewController.m; sourceTree = "<group>"; };
+		EE9C6DA71AB25ACA006E2412 /* QuoteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuoteTableViewCell.h; sourceTree = "<group>"; };
+		EE9C6DA81AB25ACA006E2412 /* QuoteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuoteTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +86,14 @@
 			children = (
 				EE9C6D821AB25609006E2412 /* AppDelegate.h */,
 				EE9C6D831AB25609006E2412 /* AppDelegate.m */,
-				EE9C6D851AB25609006E2412 /* ViewController.h */,
-				EE9C6D861AB25609006E2412 /* ViewController.m */,
 				EE9C6D881AB25609006E2412 /* Main.storyboard */,
 				EE9C6D8B1AB25609006E2412 /* Images.xcassets */,
 				EE9C6D8D1AB25609006E2412 /* LaunchScreen.xib */,
 				EE9C6D7E1AB25609006E2412 /* Supporting Files */,
+				EE9C6DA41AB25831006E2412 /* QuoteTableTableViewController.h */,
+				EE9C6DA51AB25831006E2412 /* QuoteTableTableViewController.m */,
+				EE9C6DA71AB25ACA006E2412 /* QuoteTableViewCell.h */,
+				EE9C6DA81AB25ACA006E2412 /* QuoteTableViewCell.m */,
 			);
 			path = PrototypeCellResizing;
 			sourceTree = "<group>";
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE9C6D871AB25609006E2412 /* ViewController.m in Sources */,
+				EE9C6DA91AB25ACA006E2412 /* QuoteTableViewCell.m in Sources */,
 				EE9C6D841AB25609006E2412 /* AppDelegate.m in Sources */,
 				EE9C6D811AB25609006E2412 /* main.m in Sources */,
+				EE9C6DA61AB25831006E2412 /* QuoteTableTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
